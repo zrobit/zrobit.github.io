@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zrobit",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "jade": "^1.11.0",
+    "nib": "^1.1.0",
+    "stylus": "^0.53.0"
+  }
 }
