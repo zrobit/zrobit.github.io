@@ -1,0 +1,11 @@
+{
+  "name": "genblog",
+  "version": "0.0.1",
+  "description": "Un generador de paginas estaticas para github pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zrobit",
+  "license": "ISC"
+}
