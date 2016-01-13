@@ -1,0 +1,28 @@
+block vars
+
+include includes/mixins
+
+doctype
+html(lang='es')
+  head
+    meta(charset='utf-8')
+    title zrobit blog
+    meta(name='description', content='')
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    block styles
+      link(href='static/styles/main.css', rel='stylesheet' )
+
+  body#body
+    #page.page
+      block page
+        block header
+          include includes/header
+      
+        section#content.content
+          block content
+      
+        block footer
+          include includes/footer
+    
+    block scripts

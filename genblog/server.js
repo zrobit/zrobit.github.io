@@ -29,12 +29,12 @@ app.use( '/static/images', express.static( __dirname + '/images' ));
 app.use( '/static/fonts', express.static( __dirname + '/fonts' ));
 
 app.get( '/', function(req, res) {
-  res.render( __dirname + '/layouts/index.jade');
+  res.render( __dirname + '/layouts/index.jade', {pretty: true});
 });
 
 app.get(/^\/blog\/([a-z0-9\/\-]+)$/, function(req, res) {
   file = fs.readFileSync('../_posts/'+req.params[0]+'.md', "utf8");
-  res.render( __dirname + '/layouts/post.jade', {post: marked(file)} );
+  res.render( __dirname + '/layouts/post.jade', {post: marked(file)});
 });
 
 if ( process.argv[2] ) {
