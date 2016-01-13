@@ -1,4 +1,4 @@
-# Hola mundo
+## Hola mundo
 
 Hola que tal esto es un blog generado para
 [github pages](https://pages.github.com/)
@@ -7,12 +7,12 @@ algunos paquetes cools de npm como Jade, Stylus y Markdown este es el
 repositorio del blog
 [zrobit.github.io](https://github.com/zrobit/zrobit.github.io)
 
-## Qué sigue
+### Qué sigue
 La idea es que este blog me sirva para compartir código; además iré actualizando
 la estética del blog asi como también la librería que he creado para generar
 este blog estático :)
 
-## Motivación
+### Motivación
 - Mi principal motivación es enseñar las cosas que aprendo día a día de este mundo
 apasionante de escribir software.
 
@@ -23,7 +23,7 @@ consultarlas en el futuro cuando las necesite.
 lado del código; sin compartir nada significativo más que en mi cuenta de twitter
 [@zrobit](https://twitter.com/zrobit)
 
-## Acerca del generador estático
+### Acerca del generador estático
 Bueno no pretendo reinventar la rueda de los generadores estáticos pero no me
 interesé en intentar aprender [Jekyll](https://jekyllrb.com/) u otros, enserio
 la lista es larga: [staticgen.com](https://www.staticgen.com/); así que

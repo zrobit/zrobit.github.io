@@ -15,7 +15,7 @@ app.set('view engine', 'jade');
 app.use('/static/styles', stylus.middleware({
   debug: true,
   src: __dirname + '/styles',
-  dest: __dirname + '../static/styles',
+  dest: __dirname + '/../static/styles',
   serve: true,
   forse: false,
   compile: function ( str, path ) {
@@ -23,7 +23,7 @@ app.use('/static/styles', stylus.middleware({
   }
 }));
 
-app.use( '/static/styles', express.static( __dirname + '../static/styles' ));
+app.use( '/static/styles', express.static( __dirname + '/../static/styles' ));
 app.use( '/static/scripts', express.static( __dirname + '/scripts' ));
 app.use( '/static/images', express.static( __dirname + '/images' ));
 app.use( '/static/fonts', express.static( __dirname + '/fonts' ));
