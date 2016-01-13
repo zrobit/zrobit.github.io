@@ -1,8 +1,10 @@
 # Hola mundo
 
-Hola que tal esto es un blog generado para github static pages pero sin utilizar
-Jekyll, he creado un pequeño generador utilizando nodejs y algunos paquetes
-cools de npm como Jade, Stylus y Markdown este es el repositorio del blog
+Hola que tal esto es un blog generado para
+[github pages](https://pages.github.com/)
+pero sin utilizar Jekyll, he creado un pequeño generador utilizando nodejs y
+algunos paquetes cools de npm como Jade, Stylus y Markdown este es el
+repositorio del blog
 [zrobit.github.io](https://github.com/zrobit/zrobit.github.io)
 
 ## Qué sigue
