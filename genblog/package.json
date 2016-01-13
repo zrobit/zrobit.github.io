@@ -13,6 +13,7 @@
     "gulp": "^3.9.0",
     "gulp-jade": "^1.1.0",
     "gulp-livereload": "^3.8.1",
+    "gulp-stylus": "^2.2.0",
     "jade": "^1.11.0",
     "marked": "^0.3.5",
     "nib": "^1.1.0",
