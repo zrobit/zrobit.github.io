@@ -1,3 +1,4 @@
-exports.copy = require("./watch.js");
-exports.copy = require("./html.js");
-exports.copy = require("./styles.js");
+require("./watch.js");
+require("./html.js");
+require("./styles.js");
+require("./icons.js");
