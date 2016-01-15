@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     gulp_jade = require('gulp-jade'),
     marked = require('marked'),
     fs = require('fs'),
+    rename = require("gulp-rename"),
     through = require('through2');
 
 
@@ -25,7 +26,7 @@ function htmlPosts () {
       var marked_options = {
       };
 
-      compiled = marked(String(file.contents), marked_options)
+      compiled = marked(String(file.contents), marked_options);
       handler.post = compiled;
       compiled = jade.compile(post_template, jade_options)({post: compiled});
 
@@ -42,9 +43,10 @@ function htmlPosts () {
 
 function htmlIndex(){
   var handler = {};
-  return gulp.src(['layouts/index.jade'])
+  return gulp.src(['layouts/home.jade'])
     .pipe(gulp_jade({locals: handler, pretty:true}))
-    .pipe(gulp.dest('../'))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('../'));
 }
 gulp.task('html:posts', htmlPosts);
 gulp.task('html:index', htmlIndex);

@@ -14,6 +14,7 @@
     "gulp-consolidate": "^0.1.2",
     "gulp-jade": "^1.1.0",
     "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
     "gulp-stylus": "^2.2.0",
     "jade": "^1.11.0",
     "lodash": "^4.0.0",
