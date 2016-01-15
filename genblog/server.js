@@ -29,7 +29,7 @@ app.use( '/static/images', express.static( __dirname + '/images' ));
 app.use( '/static/fonts', express.static( __dirname + '/fonts' ));
 
 app.get( '/', function(req, res) {
-  res.render( __dirname + '/layouts/index.jade', {pretty: true});
+  res.render( __dirname + '/layouts/home.jade', {pretty: true});
 });
 
 app.get(/^\/blog\/([a-z0-9\/\-]+)$/, function(req, res) {
