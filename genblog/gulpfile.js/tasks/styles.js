@@ -19,4 +19,3 @@ function styles () {
 }
 
 gulp.task('styles', styles);
-module.exports = styles;

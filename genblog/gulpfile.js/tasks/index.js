@@ -1,4 +1,4 @@
 require("./watch.js");
-require("./html.js");
+require("./templates.js");
 require("./styles.js");
 require("./icons.js");

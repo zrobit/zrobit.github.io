@@ -43,10 +43,11 @@ function htmlPosts () {
 
 function htmlIndex(){
   var handler = {};
-  return gulp.src(['layouts/home.jade'])
+  return gulp.src(['templates/home.jade'])
     .pipe(gulp_jade({locals: handler, pretty:true}))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('../'));
 }
-gulp.task('html:posts', htmlPosts);
-gulp.task('html:index', htmlIndex);
+gulp.task('templates:posts', htmlPosts);
+gulp.task('templates:index', htmlIndex);
+gulp.task('templates', ['templates:index', 'templates:posts']);

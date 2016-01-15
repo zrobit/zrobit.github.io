@@ -8,6 +8,6 @@ function watch () {
   gulp.watch(src, function(){
     livereload.reload();
   });
-};
+}
 
 gulp.task('watch', watch);
