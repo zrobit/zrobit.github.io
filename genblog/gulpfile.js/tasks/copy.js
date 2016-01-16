@@ -21,6 +21,8 @@ function fonts () {
     .pipe(gulp.dest('../static/fonts'));
 }
 
-gulp.task('copy:fonts', scripts);
+gulp.task('copy:scripts', scripts);
 gulp.task('copy:images', images);
 gulp.task('copy:fonts', fonts);
+
+gulp.task('copy', ['copy:scripts', 'copy:images', 'copy:fonts']);

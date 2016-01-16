@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 var src = ['../_posts/**/*.md'];
 
-var post_template = fs.readFileSync('layouts/post.jade', "utf8");
+var post_template = fs.readFileSync('templates/post.jade', "utf8");
 
 
 function htmlPosts () {

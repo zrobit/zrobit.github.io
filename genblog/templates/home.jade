@@ -3,6 +3,8 @@ extends _main
 block content
   .home
     .hello
-      p Hello!
+      p.first Hello!
+      p.second Let's code!
     .content-inner
-      include:markdown ../../_posts/hola-mundo.md
+      article
+        include:markdown ../../_posts/hola-mundo.md
