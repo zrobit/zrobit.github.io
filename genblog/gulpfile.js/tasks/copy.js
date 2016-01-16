@@ -9,7 +9,7 @@ function scripts () {
 
 
 function images () {
-  var src = ['images/**/*', '!images/icons/**/*'];
+  var src = ['images/**/*', '!images/icons/**/*', '!images/tools/**/*'];
   return gulp.src(src)
     .pipe(gulp.dest('../static/images'));
 }
